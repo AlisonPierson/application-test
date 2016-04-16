@@ -4,7 +4,7 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
     function showRowInfo(thebutton) {
-		var person = $(thebutton).closest("tr").find("td:lt(5)");  // collects all the data from the buttons row
+		var person = $(thebutton).closest("tr").find("td:lt(5)");  // collects all the data from the button's row
 		var first_name = person[2].innerHTML,
 			last_name = person[3].innerHTML,
 			email = person[4].innerHTML;
